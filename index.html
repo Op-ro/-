@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>코딩스토어 포트폴리오</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>코딩스토어</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+<section id="hero">
+  <h2>당신의 봇 스토어</h2>
+  <p>깔끔하고 만족스러운 봇 외주</p>
+</section>
+
+<section id="products">
+  <h2>제공 서비스</h2>
+  <div class="product-grid">
+
+    <div class="card">
+      <h3>디스코드 봇 제작</h3>
+      <p>자동화, 자판기, 각종 기능 구현 등</p>
+      <button class="buyBtn" data-title="디스코드 봇 제작" data-desc="자동화, 자판기, 각종 기능 구현 등" >자세히 보기</button>
+    </div>
+
+    <div class="card">
+      <h3>웹사이트 제작</h3>
+      <p>현대적 UI/UX, 안정적인 서비스</p>
+      <button class="buyBtn" data-title="웹사이트 제작" data-desc="현대적 UI/UX, 안정적인 서비스" >자세히 보기</button>
+    </div>
+
+    <div class="card">
+      <h3>암호화폐 자동 충전</h3>
+      <p>자동 충전 및 관리 시스템</p>
+      <button class="buyBtn" data-title="암호화폐 자동 충전" data-desc="자동 충전 및 관리 시스템">자세히 보기</button>
+    </div>
+
+    <div class="card">
+      <h3>iOS / AOS 자동 충전</h3>
+      <p>모바일 앱 충전 시스템</p>
+      <button class="buyBtn" data-title="iOS / AOS 자동 충전" data-desc="모바일 앱 충전 시스템">자세히 보기</button>
+    </div>
+
+
+    
+  </div>
+</section>
+<section id="pricing">
+  <h2>개발 외주 가격 안내</h2>
+  <div class="product-grid">
+
+    <div class="card pricing-card">
+      <h3>간단한 작업</h3>
+      <p>기본 가격: <strong>5,000원부터</strong></p>
+      <p>작업 난이도/요구사항에 따라 변동 가능</p>
+    </div>
+
+    <div class="card pricing-card">
+      <h3>최대 금액 작업</h3>
+      <p>최대 가격: <strong>50만원까지</strong></p>
+      <p>작업 난이도/요구사항에 따라 변동 가능</p>
+    </div>
+
+  </div>
+</section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>코딩스토어는 깔끔하고 만족스러운 외주 경험을 제공합니다.</p>
+      <p> 모든 개발은 고객 맞춤식으로 개발합니다.</p>
+    </section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>문의하기</p>
+  <p>DM : @dklaksdasdkasdjlkjasd</p>
+</section>
+  </main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <img id="modalImg" src="" alt="" style="width:300px; height:300px; object-fit:contain; margin-bottom:1rem;">
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <button id="confirmBtn">문의하기 (Discord)</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
